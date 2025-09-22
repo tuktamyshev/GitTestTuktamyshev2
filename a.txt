@@ -1,0 +1,50 @@
+tuktamyshev8@172 praktika2 % git clone https://github.com/tuktamyshev/GitTestTuktamyshev.git
+Cloning into 'GitTestTuktamyshev'...
+warning: You appear to have cloned an empty repository.
+tuktamyshev8@172 praktika2 % cd GitTestTuktamyshev 
+tuktamyshev8@172 GitTestTuktamyshev % git add hello.txt                                              
+tuktamyshev8@172 GitTestTuktamyshev % git commit -m "Hello"                                          
+[main (root-commit) 32ad494] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+tuktamyshev8@172 GitTestTuktamyshev % git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tuktamyshev/GitTestTuktamyshev.git
+ * [new branch]      main -> main
+tuktamyshev8@172 GitTestTuktamyshev % cd ..
+tuktamyshev8@172 praktika2 % git clone https://github.com/tuktamyshev/GitTestTuktamyshev2.git
+Cloning into 'GitTestTuktamyshev2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+tuktamyshev8@172 praktika2 % cd GitTestTuktamyshev
+tuktamyshev8@172 GitTestTuktamyshev % cd ..
+tuktamyshev8@172 praktika2 % cd GitTestTuktamyshev2
+tuktamyshev8@172 GitTestTuktamyshev2 % git commit -m "initial commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+tuktamyshev8@172 GitTestTuktamyshev2 % git add .
+tuktamyshev8@172 GitTestTuktamyshev2 % git commit -m "initial commit"
+[main 6fa52e8] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+tuktamyshev8@172 GitTestTuktamyshev2 % git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tuktamyshev/GitTestTuktamyshev2.git
+   84d0568..6fa52e8  main -> main
